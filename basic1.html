@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first html page</title>
+</head>
+<body>
+    <p>this is a normal para</p>
+ <a href="https://www.google.com/" alt="google page">google site</a>
+ <hr />
+<!--   let us talk about ordered and unordered list here in this section -->
+<ol>
+<li>this is the first item that belongs to the ordered list</li>
+ <li>this is the second item that belongs to the ordered list</li>
+<li>
+ <ul>
+<li>this item belongs to unordered list of the ordered list</li>
+<li>this item belongs to unordered list of the ordered list</li>
+</ul>
+</li>
+</ol>
+<!--     using type attribute we can change the bullet points or the number -->
+<!--     for example -->
+<p>this para is written to differntiate between two group</p>
+<ul type=square>
+<li>this is another example</li>
+<ol type="I">
+<li>this is in roman format</li>
+<li>this is in roman format</li>
+<li>this is in roman format</li>
+</ol>
+</ul>
+<hr/>
+<!--   Let's try out tables now -->
+<table border="1">
+<tr>
+<th>col1 of header row</th>
+<th colspan="2">col2 of header row</th>
+<th>col1 of header row</th>  
+</tr>
+<tr>
+<td>col1 of row1</td>
+<td>col2 of row1</td>
+!-- the top and bottom table data now belong to one group as
+we have kept the second table header colspan as "2" so it consumes 
+the space of two columns -->
+<td>col3 of row1</td>
+<td>col4 of row1</td>
+</tr>
+<tr>
+<td>col1 of row2</td>
+<td>col2 of row2</td>
+<td>col3 of row2</td>
+<td>col4 of row4</td> 
+</tr>
+</table> 
+<br>
+<!--   below is the same table but wihout the border -->
+<table>
+<tr>
+<th>col1 of header row</th>
+<th colspan="2">col2 of header row</th>
+<th>col1 of header row</th>
+</tr>
+<tr>
+<td>col1 of row1</td>
+<td>col2 of row1</td>
+<!--      the top and bottom table data now belong to one group as
+     we have kept the second table header colspan as "2" so it consumes 
+     the space of two columns -->
+<td>col3 of row1</td>
+<td>col4 of row1</td>
+</tr>
+<tr>
+<td>col1 of row2</td>
+<td>col2 of row2</td>
+<td>col3 of row2</td>
+<td>col4 of row4</td> 
+</tr>
+</table> 
+<hr/>
+<!--   let's create a form now  -->
+<form>
+<caption>Basic Form</caption>
+<br>
+<label>first name</label>
+<input type="text" name="fname" placeholder="please write your name">
+<label>last name</label>
+<input type="text" name="lname" placeholder="please write your name">
+<label>password</label>
+<input type="password" name="myPass" placeholder="please write your name">
+ <label>first name</label>
+<input type="text" name="class_name" placeholder="please write your name">
+ </form>
+</body>
+</html>
