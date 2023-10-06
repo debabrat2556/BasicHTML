@@ -1,0 +1,21 @@
+/* for id we need to use # symbol  */
+#div1
+{
+    background-color: blue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    color: cornsilk;
+    margin-right: 20px;
+}
+/* for class we need to put . before the class name */
+.div2
+{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 20px;
+    padding: 20px;
+}
