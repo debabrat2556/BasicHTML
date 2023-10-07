@@ -1,0 +1,20 @@
+header
+{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+}
+#divBack
+{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+.content
+{
+    margin-right: 200px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight:400;
+}
