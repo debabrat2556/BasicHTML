@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#divBack
+{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+.content
+{
+    margin-right: 200px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight:400;
+}
+main
+{
+    height: 70em;
+    background-color: aqua;
+    width: 80em;
+    margin: auto;
+    padding-top: 40px;
+}
