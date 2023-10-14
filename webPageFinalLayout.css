@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#divBack
+{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+.content
+{
+    margin-right: 200px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight:400;
+}
+.main
+{
+    color: white;
+    background-color: gray;
+    height: 70em;
+    width: 70em;
+    padding: 20px;
+    margin: auto;
+}
+.sub
+{
+    height: 50em;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    margin: 6%;
+    color: chartreuse;
+    padding: 10px;
+}
