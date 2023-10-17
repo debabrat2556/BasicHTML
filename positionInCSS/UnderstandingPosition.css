@@ -1,0 +1,30 @@
+body
+{
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.div1
+{
+    position:relative ;
+    left: 60px;
+    background-color: chartreuse;
+    width: 5rem;
+    height: 10rem;   
+}
+.div2
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 100px;
+}
+.div3
+{
+    height: 20px;
+    width: 100vw;
+    background-color: rgb(220, 36, 192);
+    position: fixed;
+    top: 0;
+}
