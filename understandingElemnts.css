@@ -1,0 +1,44 @@
+.main
+{
+    background-color:red;
+    width: 20vw;
+    height: 40vh;
+    font-size: 20px; 
+
+    /* setting the font size for parent div */
+}
+.div1
+{
+    display: inline-block;
+    font-size: 2em;
+
+    /* setting the font size for sub division 1 with respect to parent font size i.e 2x20px=40 px */
+
+    width: 5em; 
+    
+    /* setting the width with respect to the font size of div1 */
+    /* font size within this div is 40 px so width becomes 40px x 5 =200 px */
+
+    height: 2em; 
+    /* similar with height as well */
+    background-color: blue;
+    margin: 1em; 
+    /* also with respect to the font size of div1 */
+}
+.div2
+{
+    display: inline-block;
+    background-color: yellow;
+    width: 10rem;   
+    /* Here width is being set with respect to the main body tag */
+    /* as we know the body tag has a font size of 16 px so here width becomes 10x16 px=160px  */
+    height: 5rem;
+}
+.div3
+{
+    background-color: blueviolet;
+    height: 50%;
+    width: 30%;
+    /* Here we are considering the div with main class as parent, so 50% means 50% of the main class  */
+    /* similarly we are taking the height also */
+}
